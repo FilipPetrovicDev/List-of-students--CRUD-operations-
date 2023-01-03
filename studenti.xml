@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<studenti>
+    <student>
+        <indeks>20140021</indeks>
+        <ime>Milos</ime>
+        <prezime>Peric</prezime>
+        <godina_rodjenja>20-Jan-1995</godina_rodjenja>
+        <mesto_rodjenja>Beograd</mesto_rodjenja>
+        <godina_upisa>6-Jul-2014</godina_upisa>
+        <ocene>9,7,8,8,6</ocene>
+        <prosecna_ocena>7.6</prosecna_ocena>
+    </student>
+    <student>
+        <indeks>20140022</indeks>
+        <ime>Marijana</ime>
+        <prezime>Savkovic</prezime>
+        <godina_rodjenja>11-Mar-1995</godina_rodjenja>
+        <mesto_rodjenja>Kraljevo</mesto_rodjenja>
+        <godina_upisa>5-Jul-2014.</godina_upisa>
+        <ocene>10,10,6,8,9</ocene>
+        <prosecna_ocena>8.6</prosecna_ocena>
+    </student>
+    <student>
+        <indeks>20130023</indeks>
+        <ime>Sanja</ime>
+        <prezime>Terzic</prezime>
+        <godina_rodjenja>9-Nov-1994</godina_rodjenja>
+        <mesto_rodjenja>Beograd</mesto_rodjenja>
+        <godina_upisa>4-Jul-2016</godina_upisa>
+        <ocene>8,6,8,8,9</ocene>
+        <prosecna_ocena>7.8</prosecna_ocena>
+    </student>
+    <student>
+        <indeks>20130024</indeks>
+        <ime>Nikola</ime>
+        <prezime>Vukovic</prezime>
+        <godina_rodjenja>17-Sep-1994</godina_rodjenja>
+        <mesto_rodjenja>Novi Sad</mesto_rodjenja>
+        <godina_upisa>6-Jul-2014</godina_upisa>
+        <ocene>9,8,7,8,9</ocene>
+        <prosecna_ocena>8.2</prosecna_ocena>
+    </student>
+    <student>
+        <indeks>20140025</indeks>
+        <ime>Marijana</ime>
+        <prezime>Savkovic</prezime>
+        <godina_rodjenja>4-Feb-1995</godina_rodjenja>
+        <mesto_rodjenja>Kraljevo</mesto_rodjenja>
+        <godina_upisa>6-Jul-2014</godina_upisa>
+        <ocene>8,7,9,8,7</ocene>
+        <prosecna_ocena>7.8</prosecna_ocena>
+    </student>
+    <student>
+        <indeks>20140026</indeks>
+        <ime>Zorica</ime>
+        <prezime>Miladinovic</prezime>
+        <godina_rodjenja>8-Okt-1995</godina_rodjenja>
+        <mesto_rodjenja>Vranje</mesto_rodjenja>
+        <godina_upisa>6-Jul-2014</godina_upisa>
+        <ocene>8,8,9,7,7</ocene>
+        <prosecna_ocena>7.8</prosecna_ocena>
+    </student>
+    <student>
+        <indeks>20130027</indeks>
+        <ime>Milena</ime>
+        <prezime>Stankovic</prezime>
+        <godina_rodjenja>nije poznato</godina_rodjenja>
+        <mesto_rodjenja>nije poznato</mesto_rodjenja>
+        <godina_upisa>nije poznato</godina_upisa>
+        <ocene>8,8,8,8,8</ocene>
+        <prosecna_ocena>8</prosecna_ocena>
+    </student>
+</studenti>

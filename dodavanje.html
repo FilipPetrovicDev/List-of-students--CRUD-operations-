@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dodavanje.css">
+        <script src="dodavanje.js"></script>
+    </head>
+    <body>
+        <div>
+            <div id="header">
+                <h1>Lista studenata</h1>
+            </div>
+            <div>
+                <a id="dodavanje" href="index.html"><b>Pocetna strana</b></a>
+            </div>
+            <div id="tekst">
+                <h2 id="uputstvo">UPUTSTVO</h2><br>
+                <p>Studente je potrebno rucno uneti popunjavanjem input polja i zatim je moguce vrsiti CRUD operacije nad njima</p>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <form onsubmit="event.preventDefault();formaPotvrde();" autocomplete="off">
+                            <div>
+                                <label>Indeks*</label><label class="validation-error hide" id="IndeksValidationError">Ovo polje je obavezno i nije moguce menjati ga</label>
+                                <input type="text" name="Id" id="indeks">
+                            </div>
+                            <div>
+                                <label>Ime</label>
+                                <input type="text" name="Ime" id="ime">
+                            </div>
+                            <div>
+                                <label>Prezime</label>
+                                <input type="text" name="Prezime" id="prezime">
+                            </div>
+                            <div>
+                                <label>Godina rodjenja</label>
+                                <input type="text" name="Godina_rodjenja" id="godina_rodjenja">
+                            </div>
+                            <div>
+                                <label>Mesto rodjenja</label>
+                                <input type="text" name="Mesto_rodjenja" id="mesto_rodjenja">
+                            </div>
+                            <div>
+                                <label>Godina upisa</label>
+                                <input type="text" name="Godina_upisa" id="godina_upisa">
+                            </div>
+                            <div>
+                                <label>Ocene</label>
+                                <input type="text" name="Ocene" id="ocene">
+                            </div>
+                            <div>
+                                <label>Prosecna ocena</label>
+                                <input type="text" name="Prosecna_ocena" id="prosecna_ocena">
+                            </div>
+                            <div  class="form-action-buttons">
+                                <input type="submit" value="Potvrdi">
+                            </div>
+                            <div class="form-action-buttons">
+                                <input id="prikazisve" type="submit" value="Prikazi studente iz XML-a" onclick="loadInAnotherTable()">
+                            </div>
+                        </form>
+                    </td>
+                    <td>
+                        <table class="list" id="listaStudenata">
+                            <thead>
+                                <tr>
+                                    <th>Indeks</th>
+                                    <th>Ime</th>
+                                    <th>Prezime</th>
+                                    <th>Godina rodjenja</th>
+                                    <th>Mesto rodjenja</th>
+                                    <th>Godina upisa</th>
+                                    <th>Ocene</th>
+                                    <th>Prosecna ocena</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer">
+            <h2>WebProgramiranjeIApiIntegracijaIspit</h2>
+            <br>
+            <p>Filip Petrovic, 2022.</p>
+        </div>
+    </body>
+</html>
